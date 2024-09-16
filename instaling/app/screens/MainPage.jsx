@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import Logowanie from "../components/Logowanie";
 import Ladowanie from "../components/Ladowanie";
 import Sukces from "../components/Sukces";
-import Error from "../components/Error"; // Komponent do wyświetlania komunikatów o błędach
 
 const MainPage = () => {
   const [strona, setStrona] = useState("logowanie");
